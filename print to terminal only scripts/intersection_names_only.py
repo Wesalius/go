@@ -1,4 +1,6 @@
-import urllib.request, json
+import json
+import urllib.request
+
 from item_player_pairs import wd_items
 
 with urllib.request.urlopen("http://www.goratings.org/ratings.json") as url:
